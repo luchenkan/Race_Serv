@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{00146911-0D2A-48CF-8878-4736E698BE8B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Serv</RootNamespace>
+    <AssemblyName>Serv</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="MySql.Data">
+      <HintPath>C:\Program Files %28x86%29\MySQL\MySQL Connector Net 8.0.11\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Conn.cs" />
+    <Compile Include="DataMgr.cs" />
+    <Compile Include="handleConnMsg.cs" />
+    <Compile Include="HandleLeaderBorder.cs" />
+    <Compile Include="handlePlayerEvent.cs" />
+    <Compile Include="handlePlayerMsg.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="PlayerData.cs" />
+    <Compile Include="PlayerTempData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProtocolBase.cs" />
+    <Compile Include="ProtocolBytes.cs" />
+    <Compile Include="ProtocolStr.cs" />
+    <Compile Include="Scene.cs" />
+    <Compile Include="ScenePlayer.cs" />
+    <Compile Include="ServNet.cs" />
+    <Compile Include="Sys.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

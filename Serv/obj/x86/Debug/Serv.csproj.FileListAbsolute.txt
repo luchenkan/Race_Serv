@@ -1,0 +1,10 @@
+D:\restart\Race\Assets\Scripts\Serv\Serv\obj\x86\Debug\Serv.csprojResolveAssemblyReference.cache
+D:\restart\Race\Assets\Scripts\Serv\Serv\bin\Debug\Serv.exe
+D:\restart\Race\Assets\Scripts\Serv\Serv\bin\Debug\Serv.pdb
+D:\restart\Race\Assets\Scripts\Serv\Serv\obj\x86\Debug\Serv.exe
+D:\restart\Race\Assets\Scripts\Serv\Serv\obj\x86\Debug\Serv.pdb
+D:\restart\Race_Serv\Serv\obj\x86\Debug\Serv.exe
+D:\restart\Race_Serv\Serv\obj\x86\Debug\Serv.pdb
+D:\restart\Race_Serv\Serv\bin\Debug\Serv.exe
+D:\restart\Race_Serv\Serv\bin\Debug\Serv.pdb
+D:\restart\Race_Serv\Serv\obj\x86\Debug\Serv.csprojResolveAssemblyReference.cache
